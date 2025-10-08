@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Prob2221_FindTriangularSumofArray {
 
     public static int triangularSum(int[] nums) {
