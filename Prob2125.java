@@ -10,10 +10,7 @@ class Prob2125 {
                     currLaserBeam++;
                 }
             }
-            System.out.println(prevLaserBeam);
-            System.out.println(currLaserBeam);
             result += (prevLaserBeam * currLaserBeam);
-            System.out.println(result);
             if (currLaserBeam != 0) {
                 prevLaserBeam = currLaserBeam;
             }
